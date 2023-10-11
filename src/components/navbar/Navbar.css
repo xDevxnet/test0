@@ -1,0 +1,110 @@
+/* navbar styling */
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav.sticky{
+background: #ff0000;
+padding: 13px 0;
+}
+nav .navbar{
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+}
+nav .navbar .logo a{
+font-weight: 500;
+font-size: 35px;
+color: #ff0000;
+}
+
+.navbar .logo .logo-img{
+height: 40px;
+width:  40px;
+border-radius: 20px;
+margin-right: 5px;
+}
+.media-icons{
+margin-top: .3rem;
+}
+.icons{
+display: none;
+}
+nav.sticky .navbar .logo a{
+color: rgb(255, 255, 255);
+}
+nav .navbar .menu{
+display: flex;
+position: relative;
+margin-bottom: 0 !important;
+}
+nav .navbar .menu li{
+list-style: none;
+margin: 0 25px;
+}
+.navbar .menu a{
+font-size: 18px;
+font-weight: 500;
+color: #ff0000;
+padding: 6px 0;
+transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+color: #ffffff;
+}
+nav.sticky .menu a{
+color: rgb(255, 255, 255);
+}
+
+.navbar .media-icons a{
+color: #ff0000;
+font-size: 18px;
+margin: 0 6px;
+}
+nav.sticky .media-icons a{
+color: #FFF;
+}
+
+.navbar .media-icons a:hover, nav .navbar .logo a:hover{
+color: #818182;
+}
+
+/* Side Navigation Menu Button CSS */
+nav .menu-btn,
+.navbar .menu .cancel-btn{
+    position: absolute;
+    color: #ff0000;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.navbar .menu .cancel-btn{
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    padding: 7px
+}
+nav .menu-btn{
+    margin-top: 1em;
+    color: #ff0000;
+}
+
+nav.sticky .menu-btn{
+    color: #FFF;
+    margin-top: 0.6em;
+}
+.navbar .menu .menu-btn{
+    color: #fff;
+}
+nav .menu-btn:hover, nav.sticky .menu-btn:hover, ol li a{
+    color:#d32727;
+}

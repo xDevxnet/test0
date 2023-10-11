@@ -1,0 +1,85 @@
+/* welcome section styling */
+.welcome{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+.welcome .welcome-content{
+width: 90%;
+height: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.welcome .text-one{
+font-size: 25px;
+color: #ff0000;
+}
+
+.welcome .text{
+margin-left: 20px;
+margin-top: 15px;
+}
+
+.welcome .text-one i{
+color: #ff0000;
+}
+
+.welcome .text-two{
+color: #ffffff;
+font-size: 75px;
+font-weight: 600;
+margin-left: -3px;
+}
+.welcome .text-three{
+font-size: 40px;
+margin: 5px 0;
+color: #ff0000;
+}
+.welcome .text-four{
+font-size: 23px;
+margin: 5px 0;
+color: #ff0000;
+}
+
+/*First Button*/
+section .button{
+margin: 16px 0;
+text-align: center;
+}
+section .button button, .cv1-button{
+outline: none;
+padding: 10px 17px;
+border-radius: 10px;
+font-size: 20px;
+font-weight: 400;
+background: #ff0000;
+border: 2px solid transparent;
+cursor: pointer;
+transition: all 0.4s ease;
+color:#ffffff;
+}
+
+.first-button{
+margin-top: 150px;
+text-align: center;
+}
+
+/* Footer CSS */
+footer{
+	background: #ff0000;
+	padding: 15px 0;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+font-size: 14px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+}
+footer .text span a{
+font-weight: 500;
+color: rgb(255, 255, 255);
+}
+footer .text span a:hover{
+text-decoration: underline;
+}
